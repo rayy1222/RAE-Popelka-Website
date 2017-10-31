@@ -1,0 +1,94 @@
+.svg {
+background-color: aliceblue;
+text-align: center;
+    
+}
+
+body {
+font-family: font-family: 'Merriweather', serif;    
+font-size: 30px;
+text-shadow: 4px 4px 4px #aaa   
+  
+text-align: center;
+margin:auto;
+border: 3px aliceblue;
+padding: 15px;
+height: auto;
+width: auto;
+border: 10px;
+border-style:solid;
+border-color: aliceblue;    
+    
+}
+}
+
+
+
+
+
+
+.mission {
+text-align: center;
+border-top: 0px;
+    }
+
+.design {
+text-align: center;
+margin:auto;
+border: 3px aliceblue;
+padding: 15px;
+height: auto;
+width: auto;
+border: 10px;
+border-style:solid;
+border-color: aliceblue;    
+    
+}
+
+
+.container {
+text-align: center;
+background-color: aliceblue;
+    
+    
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.logo {
+text-align: center;
+margin:auto;
+border: 3px aliceblue;
+padding: 10px;
+height: auto;
+width: auto;
+border: 10px;
+border-style:solid;
+border-color: aliceblue
+}
+
+
+
+footer {
+ text-align: center;
+background-color: aliceblue;   
+}
+
+
+
+
+
+
+
+
+
+
