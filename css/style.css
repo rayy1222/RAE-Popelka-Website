@@ -1,14 +1,47 @@
+
+/*********************************
+Top Logo
+*****************************/
+
 .svg {
 background-color: aliceblue;
 text-align: center;
     
 }
 
+/*********************************
+Header
+*****************************/
+
+
+
+
+
+/*********************************
+Body
+*****************************/
+
+.mission {
+text-align: center;
+border-top: 0px;
+    }
+
+.design {
+text-align: center;
+margin:auto;
+border: 3px alice;
+padding: 15px;
+height: auto;
+width: auto;
+border: 10px;
+border-style:solid;
+border-color: aliceblue;    
+}
+
 body {
 font-family: font-family: 'Merriweather', serif;    
 font-size: 30px;
 text-shadow: 4px 4px 4px #aaa   
-  
 text-align: center;
 margin:auto;
 border: 3px aliceblue;
@@ -18,8 +51,6 @@ width: auto;
 border: 10px;
 border-style:solid;
 border-color: aliceblue;    
-    
-}
 }
 
 
@@ -27,10 +58,6 @@ border-color: aliceblue;
 
 
 
-.mission {
-text-align: center;
-border-top: 0px;
-    }
 
 .design {
 text-align: center;
@@ -76,15 +103,50 @@ border-style:solid;
 border-color: aliceblue
 }
 
+/*********************************
+Partnerships
+*****************************/
+.partnerships {
+text-align: center;
+margin:auto;
+border: 3px aliceblue;
+padding: 10px;
+height: auto;
+width: auto;
+border: 10px;
+border-style:solid;
+border-color: aliceblue
+}
 
+
+
+
+
+/*********************************
+Contact Page
+*****************************/
+
+
+
+
+
+
+
+/*********************************
+Footer
+*****************************/
 
 footer {
  text-align: center;
 background-color: aliceblue;   
 }
+/*********************************
+Footer
+*****************************/
 
-
-
+/*********************************
+Media Queries
+*****************************/
 
 
 

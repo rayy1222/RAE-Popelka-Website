@@ -4,7 +4,11 @@
 <meta charset="utf-8">
 	<title>RAE Popelka Web Development & Consulting</title>
     
-  
+    
+<!-- Bootstrap -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- /Bootstrap  -->
+    
     <link rel="normalize" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,6 +21,7 @@
 
 <body>
     
+    
     <!--top logo    --> 
     <div class="svg">
  <img src="img/logo.svg" height="100px">
@@ -24,42 +29,60 @@
     <!--/top logo -->
     
    
-    <!-- navigation-->
-   <div class="design"> 
-     <header>
-     <nav>
-       <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="partnerships.html">Partnerships</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul> 
-    </nav>
-    </header>  
+                    <!-- navigation-->
+                   <div class="design"> 
+                     <header>
+                     <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="partnerships.html">Partnerships</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul> 
+                    </nav>
+                    </header>
+                 <!--/navigation-->
+                       
             <section>
-             <p>To sign up for newsletter please click below.</p>
+             <p>To sign up for newsletter fillout information below.</p>
              <h3>Monthly Newsletter</h3>
             </section>
-<!--  Java button     -->
-<button id="trigger">Click me</button>
-<p id="demo"></p>
-<!-- Java button-->
+                       
+            <!--  Java button     -->
+            <form name="myForm" onsubmit="submitFunction()">
+            Name:<input type="text" name="Name"><br>
+            Email:<input type="email" name="email"><br>
+             <input type="submit" value="Submit" onclick="submitFunction (event)"> 
+            </form>
+            <!-- Java button-->
        
-       
+            <!-- Contact Information -->  
               <section>
                    <h3>Contact Details</h3>
                    <ul class="contact-info">
                    <li class="phone"><a href="tel:502-475-8160">502-475-8160</a></li>
                    <li class="phone"><a href="raepopelka@gmail.com">raepopelka@gmail.com</a></li>
                    </ul>
-                 </section>
+             </section>
+             <!-- Contact Information -->  
+                    
     </div>
-    
+        
+     <div class="logo">
+ <img src="img/logo.svg" height="200px" width="400">
+    </div>
           <footer>
-            <a href="http://www.twitter.com/RaePopelka"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
-            <a href="http://www.facebook.com/rayb2"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+            <a href="http://www.twitter.com/RaePopelka"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"/></a>
+            <a href="http://www.facebook.com/rayb2"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"/></a>
             <p>&copy; 2017 RAE Popelka Web Development & Consulting</p>
               <p>Louisville, Kentucky</p>
           </footer>
         
+        <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+       <script src="js/app.js">
+    </script>
+  
     </body>
 </html>
