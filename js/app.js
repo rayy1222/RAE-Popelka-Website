@@ -1,6 +1,9 @@
 /********************************
 JavaScript Function
 ********************************/
+
+
+
 function submitFunction(event) {
 
 var x= document.forms["myForm"]["Name"].value;
