@@ -4,6 +4,8 @@ Top Logo
 *****************************/
 
 .main-logo {
+padding-top: 10px;
+padding-bottom: 10px;
 background-color: aliceblue;
 text-align: center;
 }
