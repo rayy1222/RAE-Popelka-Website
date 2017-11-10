@@ -31,7 +31,7 @@ text-align: center;
 border-top: 0px;
     }
 
-.container  {
+.main-content  {
 font-family: 'Merriweather', serif;    
 font-size: 30px;
 text-shadow: 4px 4px 4px #aaa;   
@@ -65,8 +65,10 @@ border-color: aliceblue;
 background-color: gainsboro;
 }
 
-input {
-    margin: 8px;
+h2 {
+font-size: 40px;
+color: black;
+    
 }
 
 
@@ -91,29 +93,9 @@ border-style:solid;
 border-color: aliceblue
 }
 
-/*********************************
-Partnerships
-*****************************/
-.partnerships {
-text-align: center;
-margin: auto;
-border: 3px aliceblue;
-padding: 15px;
-height: auto;
-width: auto;
-border: 10px;
-border-style:solid;
-border-color: aliceblue
-}
 
-.partnershiplogo {
-width: 400px;
-height: 200px;
- margin-top: 20px;   
-    
-    
-    
-}
+
+
 
 
 
@@ -125,6 +107,9 @@ Contact Page
     }
 
 
+input {
+    margin: 8px;
+}
 
 
 
@@ -172,8 +157,11 @@ Media Queries
         
     
 
-
-
+@media screen and (min-width: 1200 ){
+    
+    
+    
+    }
 
 
 
