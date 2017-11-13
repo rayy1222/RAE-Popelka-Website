@@ -2,11 +2,18 @@
 /*********************************
 Top Logo
 *****************************/
+.main-logo img {
+    
+ width: 400px;
+height: auto;
+    
+    
+}
+
 
 .main-logo {
 padding-top: 10px;
 padding-bottom: 10px;
-background-color: aliceblue;
 text-align: center;
 }
 
@@ -103,7 +110,7 @@ border-color: aliceblue
 Contact Page
 *****************************/
     form {
-        color: aliceblue
+        color: aliceblue;
     }
 
 
@@ -126,17 +133,11 @@ background-color: aliceblue;
 /*********************************
 Media Queries
 *****************************/
-@media screen and (min-width: 576px){
-   .mainlogo{
-      float: left;  
-        
-    }
-    
-}
+
     
         
  @media screen and (min-width: 768px){
-    .mainlogo{
+    .main-logo {
       float: left;  
         
     } 
@@ -146,7 +147,7 @@ Media Queries
     
 @media screen and (min-width: 992px){
 
-    .mainlogo{
+    .main-logo {
       float: left;  
         
     }
