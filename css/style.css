@@ -1,22 +1,21 @@
+header {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+
+
 
 /*********************************
 Top Logo
 *****************************/
 .main-logo img {
-    
- width: 400px;
-height: auto;
-    
-    
-}
-
-
-.main-logo {
 padding-top: 10px;
 padding-bottom: 10px;
 text-align: center;
 width: 400px;
-height: 80px;
+height: 100px;
 }
 
 /*********************************
@@ -26,9 +25,6 @@ Header
  text-align: center;
 border: aliceblue;
 list-style: none;
-height: 80px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 
 
@@ -45,7 +41,7 @@ border-top: 0px;
 
 .main-content  {
 font-family: 'Merriweather', serif;    
-font-size: 30px;
+font-size: 20px;
 text-shadow: 4px 4px 4px #aaa;   
 text-align: center;
 margin: auto;
@@ -59,6 +55,9 @@ border-color: aliceblue;
 background-color: gainsboro;
 }
 
+.main-content h1 {
+ font-size: 30px;    
+}
 
 
 body {
@@ -127,7 +126,8 @@ Footer
 
 footer {
  text-align: center;
-background-color: aliceblue;   
+background-color: aliceblue; 
+
 }
 
 
@@ -138,20 +138,16 @@ Media Queries
     
         
  @media screen and (min-width: 768px){
-    .main-logo {
-      float: left;  
-        
-    } 
+     .main-content {
+      font-size: 24px;
+     }
     
 }       
     
     
 @media screen and (min-width: 992px){
 
-    .main-logo {
-      float: left;  
-        
-    }
+    
     
     nav li {
         display: inline;
@@ -159,7 +155,14 @@ Media Queries
         padding: 0 10px;
         
         
-    }  
+        
+    }
+    
+    header {
+     flex-direction: row;   
+    }
+    
+    
 }
 
 
