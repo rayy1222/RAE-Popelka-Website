@@ -1,3 +1,12 @@
+body {
+ min-height: 95vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+    
+    
+}
+
 header {
  display: flex;
  flex-direction: column;
